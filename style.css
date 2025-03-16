@@ -1,0 +1,169 @@
+body{
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    height:180vh;
+    font-family: roboto;
+}
+.header,.box1,.box2,.box3,.footer{
+    flex:auto;
+}
+
+.header{
+    background:#1f2937;
+    color:#f9faf8;
+    padding: 10px 100px;
+}
+
+.left{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:32px;
+}
+
+
+.right{
+    display:flex;
+    margin-bottom:32px;
+    gap:24px;
+}
+
+.right-left{
+    flex:1;
+}
+
+.img-holder{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#a3a7ae;
+}
+
+ul{
+    list-style-type: none;
+    display:flex;
+    gap:10px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.logo{
+    font-size:24px;
+    color:#f9faf8;
+}
+
+
+.main-text{
+    font-size:48px;
+    color:#f9faf8;
+    font-weight:900;
+    margin: 40px 0;
+}
+.secondary-text,.link{
+    font-size:18px;
+    color:#e5e7eb;
+    margin:20px 0;
+}
+
+.img1{
+    height:300px;
+    width:400px;
+}
+.box1{
+    text-align:center;
+    padding:10px 100px;
+}
+
+.info-text{
+    font-size:36px;
+    color:#1f2937;
+    font-weight:900;
+    margin:20px;
+    margin-bottom: 48px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:100px;
+    margin-top:24px;
+    margin-bottom:32px;
+}
+
+.card-text{
+    width:200px;
+}
+
+
+.img{
+    height:200px;
+    width:200px;
+}
+
+
+.box2{
+    padding:100px 200px;
+    background:#e5e7eb;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.quote{
+    font-size:36px;
+    color:#1f2937;
+    font-style: italic;
+}
+
+.quote-box{
+    display:flex;
+    flex-direction:column;
+}
+.author{
+    font-size: 24px;
+    font-weight:bold;
+    align-self:end;
+}
+
+.box3-content,.Sign-up{
+    background:#3882f6;
+}
+
+.box3{
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.box3-content{
+    margin: 48px;
+    border-radius: 32px;
+    font-size:24px;
+    padding:32px;
+    height:100px;
+    width:800px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.Sign-up{
+    border:2px solid white;
+    padding:16px;
+    border-radius: 10px;
+    color:white;
+
+}
+.footer{
+    margin-top: 20px;
+    background:#1f2937;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
